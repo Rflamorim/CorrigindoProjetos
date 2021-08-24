@@ -50,7 +50,7 @@ dotnet aspnet-codegenerator controller -name CandidatosController -m Candidato -
 
 dotnet aspnet-codegenerator controller -name VagasController -m  -dc DbContexto --relativeFolderPath Controllers
 
-dotnet aspnet-codegenerator controller -name ClientesController -m Candidatos -dc DbContexto --relativeFolderPath Controllers --useDefaultLayout
+dotnet aspnet-codegenerator controller -name CandidatosController -m Candidatos -dc DbContexto --relativeFolderPath Controllers --useDefaultLayout
 
 ```
 /* https://www.torneseumprogramador.com.br/*/
